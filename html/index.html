@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/tittleScript.js"></script>
+    <link rel="shortcut icon" href="../img/imgg.png" type="image/x-icon">
+</head>
+<body id="body">
+    <div class="redirect" id="redirect">
+        <div class="rdrCatlg">
+            <h1 style="font-style: italic; font-family: RR;">Вы точно хотите перейти на эту ссылку?!!</h1>
+            <p style="font-style: italic; font-family: RR;color: grey;">Если вы перейдёте на ссылку страница закроется</p>
+            <h3 id="txt" style="font-family: RR;margin-top: 40px;">Осуществлять ли переход на ссылку [ссылка]?</h3>
+            <input class="yB" onclick="Y()" id="Y" type="button" value="Да"><input class="nB" onclick="N()" id="N" type="button" value="Нет">
+        </div>
+    </div>
+    <div class="preview1" id="preview">
+        <h1 id="q" class="q"></h1>
+        <input onclick="open1()" value="&#10006;" type="button" class="nButton">
+        <input onclick="left()" value="&lt;" type="button" class="LButton">
+        <input onclick="rightT()" value="&gt;" type="button" class="RButton">
+        <div class="img1"><img class="img2" id="previewimg" src="../img/1.jpg"></div>
+    </div>
+    <ul class="ul">
+        <li><a  draggable="false"href="#"><div class="logo"></div></a></li>
+        <li style="margin-left: 200px;"><a class="liOnLine" draggable="false" href="index.html">Главная</a></li>
+        <li><a class="liNoLine" draggable="false" href="portfolioPage.html">Портфолио</a></li>
+        <li><a class="liNoLine" draggable="false" href="blogPage.html">Блог</a></li>
+        <li><a class="liNoLine" draggable="false" href="#">Контакты</a></li>
+    </ul>
+    <div class="rainbow"></div>
+    <div class="content1">
+        <div style="height: 300px;"></div>
+        <p id="text1" class="content2">Всем привет! Меня зовут Даня мне 11 лет.</p><br class="content2">
+        <p id="text2" class="content2">Я мечтаю стать проффесиональным программистом.</p><br class="content2">
+        <p id="text3" class="content2">Изучаю Java Script, HTML и CSS. Всё остальное я</p><br class="content2">
+        <p id="text4" class="content2">Расскажу в "хакерском блоге". Пока!</p><br class="content2">
+        <div style="height: 300px;"></div>
+        <div class="contacts">
+            <div onclick="redirect$('https:/t.me/pushkinPisatel')" class="telegramm"><img draggable="false" width="60px" height="60px" src="../img/telegramm.svg"></div>
+            <div onclick="redirect$('https:/wa.me/qr/BO72XKLBJVUEP1')" class="whatsapp"><img draggable="false" width="60px" height="60px" src="../img/whatsapp.svg"></div>
+            <div onclick="redirect$('https:/discordapp.com/users/907402283732574230')" class="discord"><img draggable="false" width="60px" height="60px" src="../img/discord.svg"></div>
+            <div onclick="redirect$('https:/vk.com/id708025292')" class="vk"><img draggable="false" width="60px" height="60px" src="../img/vk.svg"></div>
+            <div onclick="redirect$('https:/mail.google.com/mail/danatutin@gmail.com')" class="gmail"><img draggable="false" width="60px" height="60px" src="../img/gmail.svg"></div>
+        </div>
+    <div class="contacts2">
+        <p style="font-family: HF;color: white;text-align: center;">&#169; danatutin 2022</p>
+    </div>
+</body>
+</html>
