@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/tittleScript.js"></script>
+    <link rel="shortcut icon" href="../img/imgg.png" type="image/x-icon">
+</head>
+<body id="body">
+    <div class="preview1" id="preview">
+        <h1 id="q" class="q"></h1>
+        <input onclick="open1()" value="&#10006;" type="button" class="nButton">
+        <input onclick="left()" value="&lt;" type="button" class="LButton">
+        <input onclick="rightT()" value="&gt;" type="button" class="RButton">
+        <div class="img1"><img class="img2" id="previewimg" src="../img/1.jpg"></div>
+    </div>
+    <div class="redirect" id="redirect">
+        <div class="rdrCatlg">
+            <h1 style="font-style: italic; font-family: RR;">Вы точно хотите перейти на эту ссылку?!!</h1>
+            <p style="font-style: italic; font-family: RR;color: grey;">Если вы перейдёте на ссылку страница закроется</p>
+            <h3 id="txt" style="font-family: RR;margin-top: 40px;">Осуществлять ли переход на ссылку [ссылка]?</h3>
+            <input class="yB" onclick="Y()" id="Y" type="button" value="Да"><input class="nB" onclick="N()" id="N" type="button" value="Нет">
+        </div>
+    </div>
+    <ul class="ul">
+        <li><a draggable="false" href="#"><div class="logo"></div></a></li>
+        <li style="margin-left: 200px;"><a class="liNoLine" draggable="false" href="index.html">Главная</a></li>
+        <li><a class="liNoLine" draggable="false" href="portfolioPage.html">Портфолио</a></li>
+        <li><a class="liOnLine" draggable="false" href="blogPage.html">Блог</a></li>
+        <li><a class="liNoLine" draggable="false" href="#">Контакты</a></li>
+    </ul>
+    <div class="rainbow"></div>
+    <div class="empDv1" style="height: 125px;"></div>
+    <div class="empDv1">
+        <h1 class="tittleDvBlg">Смотрите мой блог</h1>
+        <a href="#j"><button class="tittleBtnBlg">Смотреть</button></a>
+    </div>
+    <div class="empDv1" style="height: 125px;"></div>
+    <div class="barBlg">Как я начинал</div>
+    <div class="contBlg1">
+        <div class="miniDvBlg"><img draggable="false" src="../img/scratchCbe.png"><h1 style="margin-top: 30px;">Scratch</h1><h3 style="margin-top: 30px;text-align: center;font-family: RR;">Мои первые шаги к IT индустрии</h3></div>
+        <div class="str">	
+            &#10142;</div>
+        <div class="miniDvBlg"><img draggable="false" src="../img/htmlCbe.png"><h1 style="margin-top: 30px;">HTML</h1><h3 style="margin-top: 30px;text-align: center;font-family: RR;">Мои первые строчки кода</h3></div>
+        <div class="str">	
+            &#10142;</div>
+        <div class="miniDvBlg"><img draggable="false" src="../img/jsCbe.png"><h1 style="margin-top: 30px;">Java Script</h1><h3 style="margin-top: 30px;text-align: center;font-family: RR;">Карьера программирования</h3></div>
+    </div>
+    <div id="j" class="perehod"></div>
+    <div>
+    <div class="contBlg2">
+        <div class="empDv" style="height: 125px;"></div>
+        <h1 style="margin-left: 150px;">Как я начинал?</h1>
+        <p style="margin-left: 150px;margin-top: 30px;">Сейчас я вам расскажу как я вообще занялся програмиронием, так вот:</p>
+        <p style="margin-left: 150px;margin-top: 15px;">в 2019 году мы поехали с классом в "Кванториум" нас поделили на 2 группы</p>
+        <p style="margin-left: 150px;margin-top: 15px;">делать игры или делать брелки я делал брелки, хотя я очень сильно хотел попасть</p>
+        <p style="margin-left: 150px;margin-top: 15px;">делать игры но я попал делать брелки но там тоже было классно! После кванториума</p>
+        <p style="margin-left: 150px;margin-top: 15px;">мы пошли гулять и ме рассказали программу которые они делали игры и я её установил.</p>
+        <p style="margin-left: 150px;margin-top: 15px;">мне было очень интерессно и я пошел дальше. Пожзе папа мне купили книгу по Scratch</p>
+        <p style="margin-left: 150px;margin-top: 15px;">я установил программу и начал через год у нас по информатике начался Scratch</p>
+        <p style="margin-left: 150px;margin-top: 15px;">КАКОЕ СОВПАДЕНИЕ! Пожзе приехал дядя Лёша и он научил меня html и Java меня научит ;)</p>
+    <div class="empDv" style="height: 200px;"></div>
+        <h1 style="margin-left: 150px;">Хобби</h1>
+        <p style="margin-left: 150px;margin-top: 30px;">Вообще моё самое любимое хобби это астрономия.</p>
+        <p style="margin-left: 150px;margin-top: 15px;">Я очень люблю наблюдать за звёздами, хотя деляю это</p>
+        <p style="margin-left: 150px;margin-top: 15px;">нечасто. Познавать новое, вообщем “Да”.</p>
+        <div class="empDv" style="height: 125px;"></div>
+    </div>
+    <div class="contBlg3">
+        <div class="empDv" style="height: 125px;"></div>
+        <h1 style="font-size: 50px;">Мои исследования за:</h1>
+        <h1 style="font-size: 30px; font-family: HF;margin-top: 20px;">Осень 2020</h1>
+        <div class="empDv" style="height: 195px;"></div>
+        <div class="contBlg4">
+            <img onclick="open1(1)" width="200px" class="img" height="200px" src="../img/1.jpg">
+            <img onclick="open1(2)" width="200px" class="img" height="200px" src="../img/2.jpg">
+            <img onclick="open1(3)" width="200px" class="img" height="200px" src="../img/3.jpg">
+            <img onclick="open1(4)" width="200px" class="img" height="200px" src="../img/4.jpg">
+            <img onclick="open1(5)" width="200px" class="img" style="margin-right: 0px" height="200px" src="../img/5.jpg">
+        </div>
+        <div class="empDv" style="height: 250px;"></div>
+    </div>
+    <div class="contacts">
+        <div onclick="redirect$('https:/t.me/pushkinPisatel')" class="telegramm"><img draggable="false" width="60px" height="60px" src="../img/telegramm.svg"></div>
+        <div onclick="redirect$('https:/wa.me/qr/BO72XKLBJVUEP1')" class="whatsapp"><img draggable="false" width="60px" height="60px" src="../img/whatsapp.svg"></div>
+        <div onclick="redirect$('https:/discordapp.com/users/907402283732574230')" class="discord"><img draggable="false" width="60px" height="60px" src="../img/discord.svg"></div>
+        <div onclick="redirect$('https:/vk.com/id708025292')" class="vk"><img draggable="false" width="60px" height="60px" src="../img/vk.svg"></div>
+        <div onclick="redirect$('https:/mail.google.com/mail/danatutin@gmail.com')" class="gmail"><img draggable="false" width="60px" height="60px" src="../img/gmail.svg"></div>
+    </div>
+    <div class="contacts2"> 
+        <p style="font-family: HF;color: white;text-align: center;">&#169; danatutin 2022</p>
+    </div>
+</body>
+</html>
